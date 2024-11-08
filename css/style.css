@@ -160,12 +160,14 @@ header {
   }
 
 
-.containercentered {
-  align-items: center;
-  padding: 10px 10px;
-}
 
-  
+  .containercentered {
+  display: flex;                  
+  justify-content: center;        
+  align-items: center;            
+  padding: 10px 10px;
+  height: 100vh;
+}
 
 
 footer {
