@@ -29,8 +29,11 @@
 <body>
       
   <header>
-    <img src="speranzina/files/speranzina-logoweb.jpg">
-      
+    <img 
+      class="logo" 
+      src="speranzina/files/speranzina-logoweb.jpg" alt="speranzina"> 
+
+
     <h1 id="home" onmouseover="changeText()" onmouseout="resetText()"> 
       <a href="index.html">
         nadia matveev
@@ -50,17 +53,18 @@
 
     <nav class="navigationbar">
       <ul class="navlinks">
-          <li><a href="sketchbookpage.html">sketchbook</a></li>
-          <li><a href="paintingpage.html">painting</a></li>
-          <li><a href="mixedmediapage.html">mixed media projects</a></li>
-          <li><a href="aboutmepage.html">about me</a></li>
+          <li><a href="#about">about me</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+
       </ul>
     </nav>
     
   </header>
 
 
-<section> 
+
+<section id="featured"> 
    <div class="containercentered">
     <p> 
      <a href="https://www.behance.net/gallery/172065961/The-Earth-We-Dont-KnowThe-Claw-Machine">
@@ -70,8 +74,8 @@
    </div>
 </section>
  
- <section>
-   <div>
+ <section id="about">
+   <div class="about">
      <h1>
        Nadia Matveev
      </h1>
@@ -84,17 +88,30 @@
    </div>
  </section>
 
- <section>
-   
+
+ <section id="projects">
+   <div class="gallery">
+        <div class="gallery-item"><img src="images/image1.jpg" alt="Image 1"></div>
+        <div class="gallery-item"><img src="images/image2.jpg" alt="Image 2"></div>
+        <div class="gallery-item"><img src="images/image3.jpg" alt="Image 3"></div>
+        <div class="gallery-item"><img src="images/image4.jpg" alt="Image 4"></div>
+        <div class="gallery-item"><img src="images/image5.jpg" alt="Image 5"></div>
+        <div class="gallery-item"><img src="images/image6.jpg" alt="Image 6"></div>
+    </div>
  </section>
 
 
   
-
-
-
-
-
+<section id="contact"> 
+  <div>
+    <p> Find me on social media: </p>
+      <div class="sociallinks"> 
+        <a href="https://www.behance.net/nadiamatveevHOPE/projects"> behance </a> 
+        <a href="https://www.instagram.com/hope.matveev/"> instagram </a>
+      </div>  
+    <p> Contact me on email: </p>
+  </div>
+</section>
 
 
 
@@ -103,21 +120,8 @@
        <div class="footerinfo">
        © 2024 speranzina; created by Nadia Matveev
       </div>
-      <div class="sociallinks"> 
-        <a href="https://www.behance.net/nadiamatveevHOPE/projects"> behance </a> 
-        <a href="https://www.instagram.com/hope.matveev/"> instagram </a>
-      </div>  
-      </div>
+    </div>
   </footer>
-   
-
-
-
-
-
-
-
-
 
 
 </body>
